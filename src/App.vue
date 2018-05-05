@@ -26,5 +26,6 @@ export default {
 </style>
 
 <style lang="scss">
+@import "./assets/styles/fonts";
 
 </style>
