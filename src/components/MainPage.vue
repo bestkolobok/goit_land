@@ -1,19 +1,19 @@
 <template>
     <div>
-        <header></header>
-        
+        <app-header></app-header>
+
         <span>Hello {{VariableOne}}!</span>
         <span>in {{VariableTwo}}</span>
     </div>
 </template>
 
 <script>
-import Header from './Header.vue'
+import AppHeader from './Header.vue'
 import _ from 'lodash'
 
 export default {
     name: 'MainPage',
-    components: { Header },
+    components: { AppHeader },
     data(){
         return{
             VariableOne: 'World',

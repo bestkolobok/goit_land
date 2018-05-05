@@ -1,6 +1,6 @@
 <template>
     <div>
-
+      <span>ПРОВЕРКА</span>
     </div>
 </template>
 
