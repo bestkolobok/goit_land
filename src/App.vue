@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header></header>
+
     <main-page></main-page>
 
     <!-- <router-view/> -->
@@ -9,11 +9,11 @@
 
 <script>
 import MainPage from './components/MainPage.vue'
-import Header from './components/Header.vue'
+
 
 export default {
   name: 'App',
-  components: { MainPage, Header },
+  components: { MainPage },
   data () {
     return {
     }
