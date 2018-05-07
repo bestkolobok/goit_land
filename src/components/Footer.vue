@@ -18,7 +18,7 @@
         </div>
         <div class="field__copywrite">
           <p>
-            &copy;2018. Онлайн-курс &laquo;Full Stack-разработчик с нуля&raquo; в GoIt.
+            &copy;2018. Онлайн-курс &laquo;Full <br/> Stack-разработчик с нуля&raquo; в GoIt.
           </p>
         </div>
       </div>
@@ -44,6 +44,7 @@ export default {
   height: 316px;
   background-color:  #242427;
   .field{
+    position: relative;
     display: flex;
     align-content: center;
     align-items: center;
@@ -105,7 +106,7 @@ export default {
     &__copywrite{
       position: absolute;
       top: 255px;
-      max-width: 220px;
+      max-width: 235px;
       p{
         font-family: UbuntuMono;
         color:  #ffffff;

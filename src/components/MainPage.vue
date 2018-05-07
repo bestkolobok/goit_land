@@ -22,8 +22,8 @@
         <app-part-19></app-part-19>
         <app-footer></app-footer>
 
-        <span>Hello {{VariableOne}}!</span>
-        <span>in {{VariableTwo}}</span>
+        <!-- <span>Hello {{VariableOne}}!</span>
+        <span>in {{VariableTwo}}</span> -->
     </div>
 </template>
 
