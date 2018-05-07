@@ -26,5 +26,11 @@ export default {
 </style>
 
 <style lang="scss">
+html {
+    font-size: 14px;
+}
+h4{
+  font-size: 1.15rem;
+}
 
 </style>
