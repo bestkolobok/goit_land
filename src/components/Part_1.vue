@@ -1,6 +1,6 @@
 <template>
     <div>
-<span>Привет!!!!</span>
+
     </div>
 </template>
 
@@ -17,5 +17,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 
 </style>
