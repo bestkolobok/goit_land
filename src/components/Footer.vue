@@ -42,7 +42,7 @@ export default {
 .wrapper{ 
   width: 100%;
   height: 316px;
-  background-color:  #242427;
+  background-color:  $main-black;
   .field{
     position: relative;
     display: flex;
@@ -64,11 +64,12 @@ export default {
     }
     &__title{
       top: 39px;
+      // font-size: 16px;
     }
     &__top-line{
       position: absolute;
       top: 60px;
-      background-color:  #00bcd4;
+      background-color:  $main-blue;
       width: 158px;
       height: 2px;
     }
@@ -80,7 +81,7 @@ export default {
       top: 108px;
       border-radius: 4px;
       border: 0 black solid;
-      background-color:  #00bcd4;
+      background-color:  $main-blue;
       width: 175px;
       height: 34px;
       font-family: MuseoSansCyrl;

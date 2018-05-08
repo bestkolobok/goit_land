@@ -31,9 +31,22 @@ html {
 }
 h2{
   font-size: 1.8rem;
+  color: $main-black;
+}
+h3{
+  font-size: 1.43rem;
+  color: $main-black;
 }
 h4{
-  font-size: 1.15rem;
+  font-size: 1.14rem;
+  color: $main-black;
 }
-
+h5{
+  font-size: 1rem;
+  color: $main-black;
+}
+p{
+  font-size: 1rem;
+  color: $main-black;
+}
 </style>
