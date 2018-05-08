@@ -386,6 +386,7 @@ export default {
           text-align: center;
           span{
             font-weight: 700;
+            border-bottom: 1px solid $main-blue;
           }
         }
       }
