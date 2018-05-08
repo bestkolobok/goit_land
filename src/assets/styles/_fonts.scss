@@ -21,6 +21,20 @@
 
 @font-face {
     font-family: 'MuseoSansCyrl';
+    src: url('~@/assets/styles/fonts/MuseoSansCyrl/MuseoSansCyrl500.woff') format('woff'), url('~@/assets/styles/fonts/MuseoSansCyrl/MuseoSansCyrl500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('~@/assets/styles/fonts/MuseoSansCyrl/MuseoSansCyrl700.woff') format('woff'), url('~@/assets/styles/fonts/MuseoSansCyrl/MuseoSansCyrl700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
     src: url('~@/assets/styles/fonts/MuseoSansCyrl/MuseoSansCyrl900.woff') format('woff'), url('~@/assets/styles/fonts/MuseoSansCyrl/MuseoSansCyrl900.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;

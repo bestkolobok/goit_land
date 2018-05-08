@@ -393,6 +393,7 @@ export default {
       &__button{
         margin: 2rem auto 3rem;
         border-radius: 5px;
+        border: 0;
         background: linear-gradient(90deg, #ffc617 0%, #fb0740 100%);
         box-shadow: 0px 12px 20px 0px rgba(28, 28, 30, 0.21);
         width: 250px;
