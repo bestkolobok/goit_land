@@ -196,6 +196,9 @@ export default {
       
     }
     .footer{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
       h5{
         margin-top: 3.9rem;
         font-family: MuseoSansCyrl;
@@ -210,7 +213,7 @@ export default {
         border: 0;
         background: linear-gradient(90deg, #ffc617 0%, #fb0740 100%);
         box-shadow: 0px 12px 20px 0px rgba(28, 28, 30, 0.21);
-        width: 100%;
+        width: 250px;
         height: 55px;
 
         font-family: MuseoSansCyrl;

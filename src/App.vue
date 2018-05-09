@@ -29,6 +29,10 @@ export default {
 html {
     font-size: 14px;
 }
+h1{
+  font-size: 2.6rem;
+  color: $main-black;
+}
 h2{
   font-size: 1.8rem;
   color: $main-black;

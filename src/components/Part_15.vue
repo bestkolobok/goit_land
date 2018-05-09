@@ -119,7 +119,7 @@ export default {
       }
       &__line{
         margin: 3.5rem auto 1rem;
-        background-color:  $main-blue;;
+        background-color:  $main-blue;
         width: 250px;
         height: 2px;
       }
@@ -152,6 +152,7 @@ export default {
           margin-top:1.2rem;
           width: 100%;
           &__bullet{
+            margin-top: 0.1rem;
             border-radius: 50%;
             background-color:  $main-blue;
             width: 19.5px;
@@ -194,7 +195,7 @@ export default {
         border-radius: 5px;
         background: linear-gradient(90deg, #ffc617 0%, #fb0740 100%);
         box-shadow: 0px 12px 20px 0px rgba(28, 28, 30, 0.21);
-        width: 96%;
+        width: 250px;
         height: 55px;
         border: 0;
 

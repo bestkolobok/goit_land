@@ -301,16 +301,17 @@ export default {
       }
     }
     .order{
-      position: relative;
+      // position: relative;
       margin-top: 1.4rem;
       margin-bottom: 5rem;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
       width: 100%;
       background-color: #efefef;
       box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
       &__wrapper{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         width: 90%;
         h3{
           margin-top: 3.9rem;
