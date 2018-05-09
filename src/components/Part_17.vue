@@ -89,7 +89,7 @@
 <script>
 
 export default {
-  name: 'Header',
+  name: 'Part_17',
   data(){
     return{
 

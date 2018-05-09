@@ -150,7 +150,7 @@
 <script>
 
 export default {
-  name: 'Header',
+  name: 'Part_19',
   data(){
     return{
       checkBox: false,
@@ -165,7 +165,6 @@ export default {
 <style lang="scss" scoped>
 .conteiner{ 
   width: 100%;
-  // height: 1931px;
   background: url(../assets/img/app19/background_small.png) repeat rgb(210, 214, 213);
   .wrapper{
     display: flex;
@@ -182,7 +181,6 @@ export default {
       width: 100%;
       h2{
         margin-top: 4.2rem;
-        // max-width: 260px;
         font-family: MuseoSansCyrl;
         font-weight: 900;
         line-height: 2.1rem;
@@ -199,7 +197,6 @@ export default {
       }
       h5{
         margin-top: 1.25rem;
-        // max-width: 278px;
         line-height: 1.4rem;
         text-align: center;
         font-family: MuseoSansCyrl;

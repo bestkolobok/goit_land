@@ -165,17 +165,17 @@ export default {
 		margin-top: 0.6rem;
 		font-family: UbuntuMono;
 		color:  #00bcd4;
-		font-size: 18px;/* Приближение из-за подстановки шрифтов */
+		font-size: 18px;
 		font-weight: 700;
-		line-height: 18px;/* Приближение из-за подстановки шрифтов */
+		line-height: 18px;
 		text-align: center;;
 	}
 	.final>span{
 		font-family: UbuntuMono;
 		color:  #ffffff;
-		font-size: 14px;/* Приближение из-за подстановки шрифтов */
+		font-size: 14px;
 		font-weight: 700;
-		line-height: 18px;/* Приближение из-за подстановки шрифтов */
+		line-height: 18px;
 		text-align: center;
 	}
 </style>
