@@ -169,7 +169,7 @@ export default {
             }
             span{
               font-family: OpenSans;
-              font-weight: 700;
+              font-weight: 800;
               line-height: 1.4rem;
             }
           }

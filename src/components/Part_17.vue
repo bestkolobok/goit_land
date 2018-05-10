@@ -169,7 +169,7 @@ export default {
         border-color:  #ffffff;
         border-style: solid;
         box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
-        width: 18px;
+        width: 19px;
         height: 18px;
       }
       &__bullet_blue{
@@ -190,10 +190,7 @@ export default {
           line-height: 1.7rem;
           text-align: left;
         }
-
       }
-        
-      
     }
     .footer{
       display: flex;
@@ -225,15 +222,6 @@ export default {
         text-shadow: 0px 1px 1px rgba(28, 28, 30, 0.32);
       }
     }
-      
- 
-
-
-
-     
-      
-    
   }
-
 }
 </style>

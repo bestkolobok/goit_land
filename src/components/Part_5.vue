@@ -1,7 +1,9 @@
 <template>
-    <div>
+  <div class="conteiner">
+    <div class="wrapper">
 
     </div>
+  </div>
 </template>
 
 <script>

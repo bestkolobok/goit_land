@@ -9,6 +9,7 @@
       <div class="card">
         <img src="../assets/img/app12/foto.png" alt="foto">
         <h3>Нина Мирошниченко</h3>
+        <p class="card__position"></p>
         <div class="card__text">
           <p>
             Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! 
@@ -23,11 +24,12 @@
       </div>
       <div class="card">
         <img src="../assets/img/app12/foto.png" alt="foto">
-        <h3>Нина Мирошниченко</h3>
+        <h3>Igor Kuznietsov</h3>
+        <p class="card__position">Frontend Developer</p>
         <div class="card__text">
           <p>
-            Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! 
-            Я випадково знайшла ці курси у Facebook. Пройшла пробний тест...
+            Учился на курсе GoFrontend#9. В целом - не жалею ни дня и ни гривны,
+            потраченных на курс. Вебинары Саши Репеты ждал как новую серию Игры Престолов...
           </p>
         </div>
         <div class="card__link">
@@ -38,11 +40,12 @@
       </div>
       <div class="card">
         <img src="../assets/img/app12/foto.png" alt="foto">
-        <h3>Нина Мирошниченко</h3>
+        <h3>Ekaterina Illarionova</h3>
+        <p class="card__position">Frontend Developer</p>
         <div class="card__text">
           <p>
-            Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! 
-            Я випадково знайшла ці курси у Facebook. Пройшла пробний тест...
+            Отличные курсы для взрослых людей. У каждой группы есть менеджер который всегда поможет
+            в организационных вопросах, несколько менторов к которым можно...
           </p>
         </div>
         <div class="card__link">
@@ -53,11 +56,12 @@
       </div>
       <div class="card">
         <img src="../assets/img/app12/foto.png" alt="foto">
-        <h3>Нина Мирошниченко</h3>
+        <h3>Dmitry Goncharov</h3>
+        <p class="card__position">Frontend Developer</p>
         <div class="card__text">
           <p>
-            Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! 
-            Я випадково знайшла ці курси у Facebook. Пройшла пробний тест...
+            Отличные курсы для взрослых людей. У каждой группы есть менеджер который всегда поможет
+            в организационных вопросах, несколько менторов к которым можно...
           </p>
         </div>
         <div class="card__link">
@@ -68,11 +72,12 @@
       </div>
       <div class="card">
         <img src="../assets/img/app12/foto.png" alt="foto">
-        <h3>Нина Мирошниченко</h3>
+        <h3>Natalya Ivanova</h3>
+        <p class="card__position">coding for web</p>
         <div class="card__text">
           <p>
-            Мені дуже сподобалися курси від GoIT (пройшла першу частину Frontend восени 2017р.)! 
-            Я випадково знайшла ці курси у Facebook. Пройшла пробний тест...
+            Обдумуючи те, що відбулося зі мною за останній рік (я почала вчитися у вересні 2016-го), 
+            розумію, що курси Go Front End були переламним досвідом.
           </p>
         </div>
         <div class="card__link">
@@ -156,8 +161,17 @@ export default {
           text-align: center;
           background-color:  #242427;
         }
+        &__position{
+          margin-top: 0.6rem;
+          height: 1rem;
+          font-family: UbuntuMono;
+          color:  #5f5f5f;
+          font-size: 0.85rem;
+          font-weight: 400;
+          text-align: center;
+        }
         &__text{
-          margin-top: 2rem;
+          margin-top: 0.2rem;
           p{
             font-family: OpenSans;
             font-weight: 600;
