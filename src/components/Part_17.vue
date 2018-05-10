@@ -214,7 +214,8 @@ export default {
         height: 55px;
 
         font-family: MuseoSansCyrl;
-        font-weight: 900;
+        font-weight: 700;
+        letter-spacing: 0.06rem;
         color:  #ffffff;
         font-size: 1rem;
         line-height: 1.9rem;

@@ -300,7 +300,8 @@ export default {
         border: 0;
 
         font-family: MuseoSansCyrl;
-        font-weight: 900;
+        font-weight: 700;
+        letter-spacing: 0.06rem;
         color:  #ffffff;
         font-size: 1.14rem;
         text-align: center;

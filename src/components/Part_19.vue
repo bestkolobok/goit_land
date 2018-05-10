@@ -217,8 +217,8 @@ export default {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        // height: 6.4rem;
         height: 28vw;
+        max-height: 140px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         img{
           height: 100%;
@@ -398,7 +398,8 @@ export default {
         height: 55px;
 
         font-family: MuseoSansCyrl;
-        font-weight: 900;
+        font-weight: 700;
+        letter-spacing: 0.06rem;
         color:  #ffffff;
         font-size: 1rem;
         line-height: 1.9rem;
