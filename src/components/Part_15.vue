@@ -144,7 +144,7 @@ export default {
       }
       &__list{
         margin-top: 5px;
-        margin-bottom: 3.5rem;
+        margin-bottom: 0.5rem;
         width: 90%;
         .row{
           display: flex;

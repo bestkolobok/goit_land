@@ -60,14 +60,28 @@
         </p>
       </div>
       <div class="video">
-        <!-- <video controls="controls" poster="../assets/img/app11/video-woman.jpg">
-          <source src="www.youtube.com/watch?v=_ee-IgXNHI4" type="video/mp4">
-        </video> -->
-
-        <!-- <video src="youtu.be/_ee-IgXNHI4" controls="true"></video> -->
         <div class="video__cell">
-          <img src="../assets/img/app11/video-woman.jpg" alt="" @click="video = false" v-if="video">
-          <iframe src="http://www.youtube.com/embed/_ee-IgXNHI4?wmode=transparent&amp;rel=0&autoplay=1" frameborder="0" allowfullscreen v-else></iframe>
+          <youtube :video-id="videoId" ref="youtube0" @playing="playing(0)" @paused="paused(0)" @ended="paused(0)" width="290" height="223" 
+            class="video__item1" frameborder="0" allowfullscreen>
+          </youtube>
+          <img class="video__poster" src="../assets/img/app11/video-woman.jpg" alt="video-woman" v-if="videoVisible0">
+          <img class="video__button" src="../assets/img/app11/button.png" alt="button"  @click="playVideo(0)" v-if="videoVisible0">
+        </div>
+
+        <div class="video__cell">
+          <youtube :video-id="videoId2" ref="youtube1" @playing="playing(1)" @paused="paused(1)" @ended="paused(1)" width="290" height="223" 
+            class="video__item2" frameborder="0" allowfullscreen>
+          </youtube>
+          <img class="video__poster" src="../assets/img/app11/video-man.jpg" alt="video-woman" v-if="videoVisible1">
+          <img class="video__button" src="../assets/img/app11/button.png" alt="button"  @click="playVideo(1)" v-if="videoVisible1">
+        </div>
+
+        <div class="video__cell">
+          <youtube :video-id="videoId3" ref="youtube2" @playing="playing(2)" @paused="paused(2)" @ended="paused(2)" width="290" height="223" 
+            class="video__item3" frameborder="0" allowfullscreen>
+          </youtube>
+          <img class="video__poster" src="../assets/img/app11/video-male.jpg" alt="video-woman" v-if="videoVisible2">
+          <img class="video__button" src="../assets/img/app11/button.png" alt="button"  @click="playVideo(2)" v-if="videoVisible2">
         </div>
         
       </div>
@@ -81,9 +95,40 @@ export default {
   name: 'Part_11',
   data(){
     return{
-      video: true
+      videoId: '_ee-IgXNHI4',
+      videoId2: 'D_sAfKFzBaA',
+      videoId3: 'eDBsgXQygXY',
+      videoPlaying: [false, false, false],
+      videoVisible0: true,
+      videoVisible1: true,
+      videoVisible2: true
     }
-  }
+  },
+  methods: {
+    playVideo(item) {
+      // this.player.playVideo()
+      this.$refs['youtube' + item].player.playVideo()
+    },
+    playing(n) {
+      this['videoVisible' + n] = false;
+      this.videoPlaying[n] = true;
+      for(let i in this.videoPlaying){
+        if (this.videoPlaying[i] && i != n) {
+          this.$refs['youtube' + i].player.pauseVideo()
+        }
+      }
+    },
+
+    paused(n){
+      this['videoVisible' + n] = true;
+      this.videoPlaying[n] = false;
+    }
+  },
+  // computed: {
+  //   player(i) {
+  //     // return this.$refs.youtube.player
+  //   }
+  // }
 }
 </script>
 
@@ -180,20 +225,23 @@ export default {
     }
     .video{
       margin-top: 2rem;
+      margin-bottom: 3rem;
       &__cell{
-        width: 100%;
-        img{
-          width: 100%;
-        }
-        iframe{
-          width: 100%;
-        }
-      }
-      video{
         margin-top: 1rem;
-        width:100%;
-        max-width: 480px;
-        
+        position: relative;
+        box-shadow: 0px 12px 20px 0px rgba(28, 28, 30, 0.21);
+      }
+      &__poster{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+      }
+      &__button{
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 40%;
       }
     }
   }

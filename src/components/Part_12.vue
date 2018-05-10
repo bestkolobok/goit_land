@@ -135,61 +135,63 @@ export default {
       }
     }
     .card{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-        margin-top: 65px;
-        padding: 1.1rem 5%;
-        width: 100%;
-        height: 21.8rem;
-        background-color:  #ffffff;
-        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
-        img{
-          margin: 0 auto;
-          position: absolute;
-          top: -48px;
-          width: 80px;
-        }
-        h3{
-          margin-top: 2.3rem;
-          padding: 0.4rem 0.7rem;
-          font-family: UbuntuMono;
-          color:  $main-blue;
-          font-weight: 700;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin-top: 65px;
+      padding: 1.1rem 5%;
+      width: 100%;
+      height: 21.8rem;
+      background-color:  #ffffff;
+      box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+      img{
+        margin: 0 auto;
+        position: absolute;
+        top: -48px;
+        width: 80px;
+      }
+      h3{
+        margin-top: 2.3rem;
+        padding: 0.4rem 0.7rem;
+        font-family: UbuntuMono;
+        color:  $main-blue;
+        font-weight: 700;
+        line-height: 1.7rem;
+        text-align: center;
+        background-color:  #242427;
+      }
+      &__position{
+        margin-top: 0.6rem;
+        height: 1rem;
+        font-family: UbuntuMono;
+        color:  #5f5f5f;
+        font-size: 0.85rem;
+        font-weight: 400;
+        text-align: center;
+      }
+      &__text{
+        margin-top: 0.2rem;
+        p{
+          font-family: OpenSans;
+          font-weight: 600;
           line-height: 1.7rem;
-          text-align: center;
-          background-color:  #242427;
+          text-align: left;
         }
-        &__position{
-          margin-top: 0.6rem;
-          height: 1rem;
-          font-family: UbuntuMono;
-          color:  #5f5f5f;
-          font-size: 0.85rem;
-          font-weight: 400;
-          text-align: center;
+      }
+      &__link{
+        position: absolute;
+        bottom: 1rem;
+        align-self: flex-end;
+        p{
+          font-family: OpenSans;
+          font-weight: 800;
+          line-height: 1.4rem;
+          text-align: right;
+          border-bottom: 2px solid $main-black;
+          cursor: pointer;
         }
-        &__text{
-          margin-top: 0.2rem;
-          p{
-            font-family: OpenSans;
-            font-weight: 600;
-            line-height: 1.7rem;
-            text-align: left;
-          }
-        }
-        &__link{
-          margin-top: 3rem;
-          align-self: flex-end;
-          p{
-            font-family: OpenSans;
-            font-weight: 800;
-            line-height: 1.4rem;
-            text-align: right;
-            border-bottom: 2px solid $main-black;
-          }
-        }
+      }
     }
     .footer{
       display: flex;

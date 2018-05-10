@@ -5,6 +5,10 @@ import App from './App'
 import router from './router'
 import './assets/styles/style.scss'
 
+import VueYoutube from 'vue-youtube'
+
+Vue.use(VueYoutube)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
