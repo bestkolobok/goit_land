@@ -9,7 +9,8 @@
         <app-part-6></app-part-6>
         <app-part-7></app-part-7>
         <app-part-8></app-part-8>
-        <app-part-9></app-part-9>
+        <app-part-9x1></app-part-9x1>
+        <app-part-9x2></app-part-9x2>
         <app-part-10></app-part-10>
         <app-part-11></app-part-11>
         <app-part-12></app-part-12>
@@ -37,7 +38,8 @@ import AppPart5 from './Part_5.vue'
 import AppPart6 from './Part_6.vue'
 import AppPart7 from './Part_7.vue'
 import AppPart8 from './Part_8.vue'
-import AppPart9 from './Part_9.vue'
+import AppPart9x1 from './Part_9_1.vue'
+import AppPart9x2 from './Part_9_2.vue'
 import AppPart10 from './Part_10.vue'
 import AppPart11 from './Part_11.vue'
 import AppPart12 from './Part_12.vue'
@@ -54,7 +56,7 @@ import _ from 'lodash'
 
 export default {
     name: 'MainPage',
-    components: { AppHeader, AppPart1, AppPart2, AppPart3, AppPart4, AppPart5, AppPart6, AppPart7, AppPart8, AppPart9, AppPart10, AppPart11, AppPart12, AppPart13, AppPart14, AppPart15, AppPart16, AppPart17, AppPart18, AppPart19, AppFooter },
+    components: { AppHeader, AppPart1, AppPart2, AppPart3, AppPart4, AppPart5, AppPart6, AppPart7, AppPart8, AppPart9x1, AppPart9x2, AppPart10, AppPart11, AppPart12, AppPart13, AppPart14, AppPart15, AppPart16, AppPart17, AppPart18, AppPart19, AppFooter },
     data(){
         return{
             VariableOne: 'World',
